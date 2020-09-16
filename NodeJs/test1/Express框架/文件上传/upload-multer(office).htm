@@ -1,0 +1,15 @@
+<!-- 上传文件的表单，使用 POST 方法，表单 enctype 属性设置为 multipart/form-data。-->
+<html>
+<head>
+<title>文件上传表单</title>
+</head>
+<body>
+<h3>文件上传：</h3>
+选择一个文件上传: <br />
+<form  method="post" enctype="multipart/form-data" name="avatar" action="/profile">
+<input type="file" name="image" size="50" />
+<br />
+<input type="submit" value="上传文件" />
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "eventproxy-test",
+  "version": "1.0.0",
+  "description": " 使用 eventproxy 控制并发",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tao",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "eventproxy": "^0.3.4",
+    "superagent": "^1.8.3"
+  }
+}

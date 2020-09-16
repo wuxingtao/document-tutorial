@@ -1,0 +1,16 @@
+{
+  "name": "cheerio",
+  "version": "1.0.0",
+  "description": " superagent 与 cheerio 完成简单爬虫",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tao",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "express": "^4.13.4",
+    "superagent": "^1.8.3"
+  }
+}
